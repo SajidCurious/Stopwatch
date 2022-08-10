@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Uchen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #aa4b6b, #6b6b83, #3b8d99);
+    color: #fff;
+}
+.main-watch{
+    background-color: #172628;
+    padding: 4vh 4vw;
+    border-radius: 1rem;
+}
+.time{
+    text-align: center;
+    font-size: 7rem;
+}
+.control-buttons{
+    text-align: center;
+    margin: 4vh 0vw;
+}
+#start,#stop,#reset{
+    background-color: #d35400;
+    padding: 2vh 2.5vw;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 1.5rem;
+    cursor: pointer;
+}
+#start:hover{
+    background-color: #e67e22;
+}
+#stop:hover{
+    background-color: #e67e22;
+}
+#reset:hover{
+    background-color: #e67e22;
+}
